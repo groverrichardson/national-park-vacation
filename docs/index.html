@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>National Park Vacation</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <h1 class="header">National Park Vacation</h1>
+        <form>
+            <label for=""
+                >Which state would you like to visit? <br />
+                <em>
+                    Please use state abbreviations. Separate states with a
+                    comma. Ex.(CA, TX, AL)
+                </em>
+            </label>
+            <input type="text" class="state-input" />
+            <label for="">Max number of results</label>
+            <input type="text" value="10" name="max" id="js-max-results" />
+            <input type="submit" value="Search" class="submit" />
+        </form>
+        <h2 class="search-header">Search Results</h2>
+        <ul class="results-wrapper"></ul>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"
+        ></script>
+        <script src="main.js" async defer></script>
+    </body>
+</html>

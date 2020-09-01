@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vh 3vw 0vh 3vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+label, input {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.submit {
+    padding: 1em;
+    border: solid 1px black;
+    background-color: lightgrey;
+}
+
+ul {
+    width: 80%;
+    max-width: 30em;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid;
+    padding: 3em 0em 3em 0em;
+}
+
+h2 {
+    padding: 0px;
+    margin-bottom: -30px;
+}
